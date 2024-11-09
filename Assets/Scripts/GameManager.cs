@@ -7,12 +7,13 @@ public class GameManager : MonoBehaviour
 {
     public event Action OnMainMenu;
     public event Action OnItemsMenu;
-    public event Action OnArPosition;
+    public event Action OnARPosition;
 
     public static GameManager instance;
-    private void Awake()
+
+    public void Awake()
     {
-        if(instance != null && instance != this)
+        if (instance!=null && instance != this)
         {
             Destroy(gameObject);
         }
@@ -21,7 +22,7 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
     }
-
+    // Start is called before the first frame update
     void Start()
     {
         MainMenu();
@@ -30,7 +31,7 @@ public class GameManager : MonoBehaviour
     public void MainMenu()
     {
         OnMainMenu?.Invoke();
-        Debug.Log("Main Menu Activated");
+        Debug.Log("Main Menu Activate");
     }
 
     public void ItemsMenu()
@@ -39,10 +40,10 @@ public class GameManager : MonoBehaviour
         Debug.Log("Items Menu Activated");
     }
 
-    public void ArPosition()
+    public void ARPosition()
     {
-        OnArPosition?.Invoke();
-        Debug.Log("Ar Position Activated");
+        OnARPosition?.Invoke();
+        Debug.Log("AR Position Activated");
     }
 
     public void CloseAPP()

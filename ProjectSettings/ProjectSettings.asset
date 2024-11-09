@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: a4a1313cd9fa45b40bf3f211f707e2f0
+  productGUID: a6431550e463cb344940e86648abd40b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: ProyectoFinal
+  productName: ProyectoFinalAR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -140,7 +140,11 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: f5e094e7ab1de874aa6fe875ac0d8864, type: 2}
+  - {fileID: -4283901142922723556, guid: 0a8b73476b8a57f47869f7f2ff57b88c, type: 2}
+  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
+  - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,7 +165,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.ProyectoFinal
+    Android: com.DefaultCompany.ProyectoFinalAR
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -259,7 +263,7 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 2
+  AndroidTargetArchitectures: 3
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -788,14 +792,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: ProyectoFinal
+  metroPackageName: ProyectoFinalAR
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: ProyectoFinal
+  metroApplicationDescription: ProyectoFinalAR
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -865,10 +869,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: f809e3f3-9f66-47e8-b561-ac6c4fb3f732
+  cloudProjectId: 0a02a263-8182-4a4e-ad03-300e1126afd0
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: ProyectoFinal
+  projectName: ProyectoFinalAR
   organizationId: netochavez923
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
